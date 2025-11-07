@@ -1,0 +1,70 @@
+{
+  "name": "eugent",
+  "version": "0.1.4",
+  "description": "Terminal-based AI coding assistant powered by Mistral AI with file manipulation tools",
+  "type": "module",
+  "bin": {
+    "eugent": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "install-global": "tsc && chmod +x dist/index.js && npm install -g ."
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "mistral",
+    "cli",
+    "terminal",
+    "coding-assistant",
+    "code-generation",
+    "file-manipulation",
+    "developer-tools",
+    "ai-tools",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "WeatherJean <weatherjean@pm.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weatherjean/eugent"
+  },
+  "bugs": {
+    "url": "https://github.com/weatherjean/eugent/issues"
+  },
+  "homepage": "https://github.com/weatherjean/eugent#readme",
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "@mistralai/mistralai": "^1.10.0",
+    "chalk": "^5.6.2",
+    "cheerio": "^1.1.2",
+    "cli-highlight": "^2.1.11",
+    "ink": "^6.4.0",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "marked": "^15.0.12",
+    "marked-terminal": "^7.3.0",
+    "react": "^19.2.0",
+    "turndown": "^7.2.2"
+  },
+  "devDependencies": {
+    "@types/iarna__toml": "^2.0.5",
+    "@types/marked-terminal": "^6.1.1",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/turndown": "^5.0.6",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
