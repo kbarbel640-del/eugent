@@ -4,7 +4,7 @@
   "description": "Terminal-based AI coding assistant powered by Mistral AI with file manipulation tools",
   "type": "module",
   "bin": {
-    "eugent": "./dist/index.js"
+    "eugent": "dist/index.js"
   },
   "files": [
     "dist",
@@ -34,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/weatherjean/eugent"
+    "url": "git+https://github.com/weatherjean/eugent.git"
   },
   "bugs": {
     "url": "https://github.com/weatherjean/eugent/issues"
